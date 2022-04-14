@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<meta charset="utf-8">
+    	<meta name="description" content="This is where your description goes">
+    	<meta name="keywords" content="one, two, three">
+
+		<title>Guess that Pokemon</title>
+
+		<!-- external CSS link -->
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+
+		<h1>Guess that Pokemon!</h1>
+		<input type="text" name="" value="" placeholder="Enter Guess Here">
+		<div class="buttonContainer">
+			<button type="button" name="button" class="guess">Guess</button>
+			<button type="button" name="button" class="hint">Need a Hint?</button>
+			<button type="button" name="button" class="giveUpButton">I Give Up</button>
+			<button type="button" name="button" class="reroll">Reroll</button>
+		</div>
+		<div>
+			<h2 id="result"></h2>
+			<h2 class="hidden name">Name</h2>
+			<img class='hidden' src="" alt="">
+		</div>
+		<h2>Hints:</h2>
+			<ul>
+				<li class="hint0 hidden abilities hints"></li>
+				<li class="hint1 hidden games hints"></li>
+				<li class="hint2 hidden color hints"></li>
+				<li class="hint3 hidden types hints"></li>
+				<li class="hint4 hidden genderForms hints"></li>
+				<li class="hint5 hidden dexNumb hints"></li>
+				<li class="hint6 hidden eggGroups hints"></li>
+				<li class="hint7 hidden legendary hints"></li>
+				<li class="hint8 hidden habitat hints"></li>
+				
+				<li class="giveUp hidden">Please Give Up or Reroll, there are no more hints</li>
+			</ul>
+		<div class="instructions">
+			<h3>Instructions</h3>
+			<p>To play, type in your guess as to which pokemon you think the hints are describing. For more hints, please press the "Need a Hint?" button. If you give up, press the "I Give Up" button. You can also just reroll the pokemon if you choose by pressing the "Reroll" button.</p>
+			<p>If hints appear blank, hit reroll</p>
+		</div>
+		<script type="text/javascript" src="js/main.js"></script>
+	</body>
+</html>

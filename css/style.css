@@ -1,0 +1,46 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+img{
+  display: block;
+  margin: 0 auto;
+}
+body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.instructions{
+  justify-self: flex-end;
+}
+*{
+  margin: 10px;
+}
+.buttonContainer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+button{
+  margin: 5px 20px
+}
+.hidden{
+  display: none;
+}
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
